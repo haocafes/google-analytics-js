@@ -1,0 +1,98 @@
+{
+  "name": "google-analytics-js",
+  "description": "http://haonature.com",
+  "scripts": {
+    "postdeploy": "http://haonature.com",
+    "pr-predestroy": "http://haonature.com"
+  },
+  "env": {
+    "APIAI_ACCESS_TOKEN": {
+      "required": true
+    },
+    "APIAI_LANG": {
+      "required": true
+    },
+    "FB_PAGE_ACCESS_TOKEN": {
+      "required": true
+    },
+    "FB_VERIFY_TOKEN": {
+      "required": true
+    },
+    "haonature": {
+      "required": true
+    },
+    "haonature.com": {
+      "required": true
+    },
+    "haonaturel": {
+      "required": true
+    },
+    "haonaturell": {
+      "required": true
+    },
+    "haonaturelll": {
+      "required": true
+    },
+    "haonaturellll": {
+      "required": true
+    },
+    "haonaturelllll": {
+      "required": true
+    },
+    "www.haonature.com": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "herokuconnect"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "heroku/php"
+    },
+    {
+      "url": "heroku/ruby"
+    },
+    {
+      "url": "heroku/java"
+    },
+    {
+      "url": "heroku/go"
+    },
+    {
+      "url": "heroku/gradle"
+    },
+    {
+      "url": "heroku/scala"
+    },
+    {
+      "url": "heroku/clojure"
+    },
+    {
+      "url": "http://haonature.com"
+    },
+    {
+      "url": "http://www.haonature.com"
+    },
+    {
+      "url": "https://haonature.com"
+    },
+    {
+      "url": "https://www.haonature.com"
+    }
+  ]
+}
